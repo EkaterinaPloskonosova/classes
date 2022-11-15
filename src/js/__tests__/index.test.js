@@ -35,7 +35,7 @@ test('checking class output Bowman', () => {
     name: 'bowman1',
     type: 'Bowman',
     health: 100,
-    evel: 1,
+    level: 1,
     attack: 25,
     defence: 25,
   };
