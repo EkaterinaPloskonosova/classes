@@ -5,19 +5,9 @@ import Swordsman from './swordsman.js';
 import Undead from './undead.js';
 import Zombie from './zombie.js';
 
-class Game {
-  constructor() {
-    this.chars = [];
-    this.chars.push(
-      new Bowman('bowman'),
-      new Daemon('daemon'),
-      new Magician('magician'),
-      new Swordsman('swordsman'),
-      new Undead('undead'),
-      new Zombie('zombie'),
-    );
-  }
-}
-
-const game = new Game();
-console.log(game);
+const bowman = new Bowman('Леголас');
+const swordsman = new Swordsman('Арагорн');
+const magician = new Magician('Гэндальф');
+const daemon = new Daemon('Ангмара');
+const undead = new Undead('Саурон');
+const zombie = new Zombie('Азог');
